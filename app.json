@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "HelpApp",
+    "slug": "HelpApp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uol.helpApp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyA8JzEv2FHyuaBm0S0xQz8878X7XZl1Xi4"
+      }
+    },
+    "android": {
+      "package": "com.uol.helpApp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB4nC0ZGSWRGFHl2tFhk_xuCiwDNAR0sqY"
+        }
+      }
+    },
+    "description": ""
+  }
+}
